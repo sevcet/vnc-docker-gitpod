@@ -1,5 +1,6 @@
 image:
-  file: Dockerfile
+  # Koristi unapred definisanu Gitpod sliku koja uključuje git, docker i ostale alate
+  file: .gitpod.Dockerfile
 
 tasks:
   - name: Run VNC Desktop
