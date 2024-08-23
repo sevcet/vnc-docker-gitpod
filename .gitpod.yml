@@ -1,0 +1,6 @@
+image:
+  file: Dockerfile
+
+tasks:
+  - name: Run VNC Desktop
+    command: docker run -d -p 6080:80 dorowu/ubuntu-desktop-lxde-vnc
